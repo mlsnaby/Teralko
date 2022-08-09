@@ -1,30 +1,32 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
   return (
+    
     <div className="footer">
       <div className="fLists">
         
         <ul className="fList">
-          <li className="fListItem">Société </li>
-          <li className="fListItem">A propos de teralko </li>
-          <li className="fListItem">Partenariats </li>
-          <li className="fListItem">Accedez à l'extranet</li>
-          <li className="fListItem">Publicité</li>
-          <li className="fListItem">Newsletter</li>
-          <li className="fListItem">Blog</li>
-          <li className="fListItem">Vlog</li>
+         <li className="fListItem"><Link to={"/societe"} >Société </Link></li>
+          <li className="fListItem"><Link to={"/apropos"} >A propos de teralko</Link> </li>
+          <li className="fListItem"><Link to={"/societe"} >Partenariats </Link></li>
+          <li className="fListItem"><Link to={"/societe"} >Accedez à l'extranet</Link></li>
+          <li className="fListItem"><Link to={"/societe"} >Publicité</Link></li>
+          <li className="fListItem"><Link to={"/societe"} >Newsletter</Link></li>
+          <li className="fListItem"><Link to={"/societe"} >Blog</Link></li>
+          <li className="fListItem"><Link to={"/societe"} >Vlog</Link></li>
         </ul>
         <ul className="fList">
-          <li className="fListItem">Condition et politique </li>
+          <li className="fListItem"><Link to={"/conditionpolitique"} >Condition et politique</Link> </li>
           <li className="fListItem"></li>
-          <li className="fListItem">Conditions générales de ventes(CGV) </li>
+          <li className="fListItem"><Link to={"/conditionGdevente"} >Conditions générales de ventes(CGV) </Link></li>
           <li className="fListItem"> </li>
-          <li className="fListItem">Conditions générales d'utilisation </li>
+          <li className="fListItem"><Link to={"/societe"} >Conditions générales d'utilisation</Link> </li>
           <li className="fListItem"> </li>
-          <li className="fListItem">Declaration sur les cookies </li>
+          <li className="fListItem"><Link to={"/societe"} >Declaration sur les cookies </Link></li>
           <li className="fListItem"> </li>
-          <li className="fListItem">Confidentialité et protection des donnees</li>
+          <li className="fListItem"><Link to={"/societe"} >Confidentialité et protection des donnees</Link></li>
         </ul>
         <ul className="fList">
           <li className="fListItem">Assistance </li>

@@ -1,6 +1,6 @@
-import "./mailList.css"
+import "./email.css"
 
-const MailList = () => {
+const Email = () => {
   return (
     <div className="mail">
       <h1 className="mailTitle">Gagnez du temps et de l'argent !</h1>
@@ -13,4 +13,4 @@ const MailList = () => {
   )
 }
 
-export default MailList
+export default Email

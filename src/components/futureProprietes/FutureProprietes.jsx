@@ -1,9 +1,9 @@
-import "./featuredProperties.css";
+import "./futureProprietes.css";
 import img1 from "../../images/img1.jpg"
 import img2 from "../../images/img2.jpg"
 import img3 from "../../images/img3.jpg"
 import img4 from "../../images/img4.jpg"
-import img5 from "../../images/img5.jpg"
+// import img5 from "../../images/img5.jpg"
 
 const FeaturedProperties = () => {
   return (
@@ -15,8 +15,8 @@ const FeaturedProperties = () => {
           className="fpImg"
         />
         <span className="fpName">Aparthotel Stare Miasto</span>
-        <span className="fpCity">Madrid</span>
-        <span className="fpPrice">Starting from $120</span>
+        <span className="fpCity">Dakar</span>
+        <span className="fpPrice">Commençant par 120.000CFA</span>
         <div className="fpRating">
           <button>8.9</button>
           <span>Excellent</span>
@@ -28,9 +28,9 @@ const FeaturedProperties = () => {
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Comfort Suites Airport</span>
-        <span className="fpCity">Austin</span>
-        <span className="fpPrice">Starting from $140</span>
+        <span className="fpName">Comfort Suites</span>
+        <span className="fpCity">Saint Louis</span>
+        <span className="fpPrice">Commençant par 100.000 CFA</span>
         <div className="fpRating">
           <button>9.3</button>
           <span>Exceptional</span>
@@ -42,9 +42,9 @@ const FeaturedProperties = () => {
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Four Seasons Hotel</span>
-        <span className="fpCity">Lisbon</span>
-        <span className="fpPrice">Starting from $99</span>
+        <span className="fpName">Hôtel des Quatre Saisons</span>
+        <span className="fpCity">Ziguichor</span>
+        <span className="fpPrice">Commençant par 110.000 CFA</span>
         <div className="fpRating">
           <button>8.8</button>
           <span>Excellent</span>
@@ -56,9 +56,9 @@ const FeaturedProperties = () => {
           alt=""
           className="fpImg"
         />
-        <span className="fpName">Hilton Garden Inn</span>
-        <span className="fpCity">Berlin</span>
-        <span className="fpPrice">Starting from $105</span>
+        <span className="fpName">Confort</span>
+        <span className="fpCity">Matam</span>
+        <span className="fpPrice">Commençant par</span>
         <div className="fpRating">
           <button>8.9</button>
           <span>Excellent</span>
